@@ -20,7 +20,7 @@ get-debloated-pkgs --add-common --prefer-nano
 # If the application needs to be manually built that has to be done down here
 echo "Building CLK..."
 echo "---------------------------------------------------------------"
-REPO="https://github.com/ArnoAnsems/CatacombGL"
+REPO="https://github.com/TomHarte/CLK"
 if [ "${DEVEL_RELEASE-}" = 1 ]; then
     echo "Making nightly build of CLK..."
     echo "---------------------------------------------------------------"
