@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=CLK Signal
+Name=Clock Signal
 Comment="A latency-hating emulator for 8 and 16 bit platforms"
 Icon=Icon
 Exec=clksignal
