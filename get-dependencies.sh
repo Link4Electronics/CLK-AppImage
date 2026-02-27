@@ -37,5 +37,5 @@ echo "$VERSION" > ~/version
 mkdir -p ./AppDir/bin
 cd ./CLK/OSBindings/Qt
 qmake
-make
+make -j$(nproc)
 mv -v clksignal ../../../AppDir/bin
