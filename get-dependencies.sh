@@ -34,7 +34,7 @@ fi
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
-cd ./CLK
+cd ./CLK/OSBindings
 ls
 #/OSBindings/Qt
 qmake
